@@ -9,16 +9,16 @@ int main() {
   cin >> first_number >> second_number;
 
   // Step 1: Use sum for the addition
-  sum = second_number + first_number;
+  sum = first_number + second_number ;
 
   // prints sum
   cout << first_number << " + " <<  second_number << " = " << sum << endl;
 
   // Branch 2: Add subtraction functionality
-  sum = second_number - first_number;
+  sum = first_number - second_number ;
 
   // prints difference
-  cout << second_number << " - " << first_number << " = " << sum << endl;
+  cout << first_number << " - " << second_number << " = " << sum << endl;
 
   return 0;
 }
