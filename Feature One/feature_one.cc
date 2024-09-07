@@ -14,11 +14,12 @@ int main() {
   // prints sum
   cout << first_number << " + " <<  second_number << " = " << sum << endl;
 
-  // Branch 2: Add subtraction functionality
-  sum = first_number - second_number ;
 
-  // prints difference
-  cout << first_number << " - " << second_number << " = " << sum << endl;
+  // Branch 3: Add multiplication functionality
+  sum = second_number * first_number;
+
+  // prints product
+  cout << second_number << " * " << first_number << " = " << sum << endl;
 
   return 0;
 }
