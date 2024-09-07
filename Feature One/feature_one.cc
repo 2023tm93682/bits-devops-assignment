@@ -5,14 +5,20 @@ int main() {
 
   int first_number, second_number, sum;
     
-  cout << "Enter three integers: ";
-  cin >> first_number >> second_number ;
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
 
-  // sum of two numbers in stored in variable sumOfTwoNumbers
-  sum = first_number + second_number ;
+  // sum of two numbers is stored in variable sum
+  sum = first_number + second_number;
 
-  // prints sum 
-  cout << first_number << " + " <<  second_number  << " = " << sum;     
+  // prints sum
+  cout << first_number << " + " <<  second_number << " = " << sum << endl;
+
+  // conflict: reuse sum variable to store the product of two numbers
+  sum = first_number * second_number;
+
+  // prints product
+  cout << first_number << " * " << second_number << " = " << sum << endl;
 
   return 0;
 }
